@@ -1,1 +1,13 @@
-<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="jr3(i*i0ng?k`Hb[+8P$" x="0" y="0"/><block type="device_forever" id="!Hv$`/?!9mUTfZj4N|jK" x="205" y="0"/></xml>
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="jr3(i*i0ng?k`Hb[+8P$" x="0" y="0"/><block type="device_forever" id="!Hv$`/?!9mUTfZj4N|jK" x="205" y="0"><statement name="HANDLER"><block type="device_show_leds" id="|tg3$tjb]MQHX[feA/zO"><field name="LEDS">`
+        . . . . # 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        # . . . .
+        `</field><next><block type="device_show_leds" id="EeBbzs.]FOMvXG,G[0-."><field name="LEDS">`
+        . . . . . 
+        . . # . . 
+        # . . . . 
+        . . . . . 
+        . . . . .
+        `</field></block></next></block></statement></block><block type="device_plot" id="^KR=q5?g+Hwe!#}ScVy^" disabled="true" x="247" y="180"><value name="x"><shadow type="math_number_minmax" id="v9^i5`{#[su7xae#oL6~" disabled="true"><mutation min="0" max="4" label="X" precision="1"/><field name="SLIDER">3</field></shadow></value><value name="y"><shadow type="math_number_minmax" id="vgdrzE4#sz4l=eH$%7b`" disabled="true"><mutation min="0" max="4" label="Y" precision="1"/><field name="SLIDER">0</field></shadow></value></block><block type="device_plot" id="KdllR2IMuK.kSf18jWh~" disabled="true" x="93" y="339"><value name="x"><shadow type="math_number_minmax" id="H;si]mRTCR=lp3;fK,2~" disabled="true"><mutation min="0" max="4" label="X" precision="1"/><field name="SLIDER">0</field></shadow></value><value name="y"><shadow type="math_number_minmax" id="f7J2p?uZG]1~:|xjOLNM" disabled="true"><mutation min="0" max="4" label="Y" precision="1"/><field name="SLIDER">0</field></shadow></value></block><block type="device_pause" id="U!?hCSsK;TZYfL;z56Rr" disabled="true" x="397" y="454"><value name="pause"><shadow type="timePicker" id="Ta1oK%ZV`DRB1Art`?.2" disabled="true"><field name="ms">100</field></shadow></value></block><block type="basic_show_icon" id="|XS!Wd^]V7QE{W;+x?iZ" disabled="true" x="349" y="589"><field name="i">IconNames.Heart</field></block><block type="device_print_message" id="`CxN6oDUFPSLm{Y`/9x2" disabled="true" x="602" y="576"><value name="text"><shadow type="text" id="^/xy?!;%t[dca[;!d-Ig" disabled="true"><field name="TEXT">Hello!</field></shadow></value></block></xml>
