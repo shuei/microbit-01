@@ -1,4 +1,4 @@
-basic.forever(function () {
+basic.forever(function on_forever() {
     led.plotBrightness(4, 2, (Math.constrain(input.acceleration(Dimension.X), -256, 768) + 256) / 4)
     led.plotBrightness(0, 2, (256 - Math.constrain(input.acceleration(Dimension.X), -768, 256)) / 4)
     led.plotBrightness(2, 0, (256 - Math.constrain(input.acceleration(Dimension.Y), -768, 256)) / 4)
